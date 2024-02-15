@@ -15,7 +15,7 @@ The Occupancy Tracker is designed to offer a sophisticated yet user-friendly sol
 - NumPy for numerical computations
 - YoLov3-tiny weight download
 
-### Interface
+### Interface (GUI Plan)
 This code snippet outlines a Python application built using customtkinter, an enhanced version of the standard tkinter library, designed for creating custom user interfaces with a modern look. It also integrates matplotlib for plotting graphs, PIL (Python Imaging Library) for image processing, and other standard Python libraries for handling dates, times, and regular expressions. The application appears to be designed for monitoring and displaying occupancy data, possibly for a store or venue, by analyzing entries in a log file and visualizing them in various forms. Let's break down the key components and functionalities of the code:
 
 Import Section
