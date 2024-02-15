@@ -13,6 +13,7 @@ The Occupancy Tracker is designed to offer a sophisticated yet user-friendly sol
 - YOLOv3-tiny object detection model
 - OpenCV library for image processing
 - NumPy for numerical computations
+- YoLov3-tiny weight download
 
 ### Interface
 This code snippet outlines a Python application built using customtkinter, an enhanced version of the standard tkinter library, designed for creating custom user interfaces with a modern look. It also integrates matplotlib for plotting graphs, PIL (Python Imaging Library) for image processing, and other standard Python libraries for handling dates, times, and regular expressions. The application appears to be designed for monitoring and displaying occupancy data, possibly for a store or venue, by analyzing entries in a log file and visualizing them in various forms. Let's break down the key components and functionalities of the code:
@@ -33,13 +34,10 @@ Main Application Window Setup
 
 -Configures the application's appearance mode to "light".
 
-Sidebar Setup
-
--Creates a sidebar for additional controls or information display, including a logo loaded from an image file.
 
 -Data Processing
 
--Implements a function (process_data_from_file) to read occupancy data from a log file, parse dates, times, and occupancy counts using regular expressions, and store the data in a dictionary for later use.
+-Implements a function (process_data_from_file) to read occupancy data from a log file, parse dates, times, and occupancy counts using regular expressions, and store the data in a dictionary for interface.
 
 Main View Setup
 
@@ -70,10 +68,9 @@ User Interaction
 In summary, this application is a sophisticated blend of GUI development with data visualization, designed for interactive analysis and display of occupancy data, demonstrating the integration of multiple Python libraries to create a functional and user-friendly interface.
   
 ### Installing
-- Clone this repository to your local machine using `git clone https://github.com/sarun2003/Occupancy-Tracker.git`.
+- Clone this repository to your local machine using `git clone 
 - Connect the webcam to the Raspberry Pi according to the instructions provided in the hardware directory.
-- Download the YOLOv3.tiny and YOLOv3.tiny-weights and place them in the model directory.
-- Instructions are provided in the model/README.md.
+- Download the YOLOv3.tiny and for the optional download YOLOv3.tiny-weights (find on browser, pre-trainned model ) and place them in the model directory.
 - Install the required Python libraries by running pip3 install -r requirements.txt.
 
 ### Executing the program
