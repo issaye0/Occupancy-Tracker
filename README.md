@@ -68,7 +68,7 @@ User Interaction
 In summary, this application is a sophisticated blend of GUI development with data visualization, designed for interactive analysis and display of occupancy data, demonstrating the integration of multiple Python libraries to create a functional and user-friendly interface.
   
 ### Installing
-- Clone this repository to your local machine using `git clone 
+- Clone this repository to your local machine using `git clone https://github.com/issaye0/Occupancy-Tracker.git'
 - Connect the webcam to the Raspberry Pi according to the instructions provided in the hardware directory.
 - Download the YOLOv3.tiny and for the optional download YOLOv3.tiny-weights (find on browser, pre-trainned model ) and place them in the model directory.
 - Install the required Python libraries by running pip3 install -r requirements.txt.
